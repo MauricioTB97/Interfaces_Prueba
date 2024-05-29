@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-box-logo"><img src="img/logo.jpg" width="150px" height="150px"></div>
+            <div class="nav-box"><a href="Index.html"><i class="fa-solid fa-house"></i> Home</a></div>
+            <div class="nav-box"><a href="citas.html">Citas</a></div>
+            <div class="nav-box"><a href="especialidades.html">Especialidades</a></div>
+            <div class="nav-box"><a href="nosotros.html">Nosotros</a></div>
+        </nav>
+    </header>
+    <main class="main-profile">
+        <h1>Perfil</h1>
+        <form action="profile.html">
+            <div class="profile">
+                <div class="img-user"><img src="img/user.png" alt="user-img"></div>
+                <div class="info-user">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre" >
+                    <label  for="lastname">Apellido Materno</label>
+                    <input  type="text" id="lastname" name="lastname" placeholder="Apellido">
+                    <label for="secondlastname">Apellido Paterno</label>
+                    <input type="text" id="secondlastname" name="secondlastname" placeholder="Apellido">
+                    <label for="birthdate">Fecha de Nacimiento</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+                <div class="info-user">
+                    <label for="age">Edad</label>
+                    <input type="number" id="age" name="age" placeholder="Edad" readonly>
+                    <script>
+                        document.getElementById("birthdate").addEventListener("change", function () {
+                            var birthdate = new Date(this.value);
+                            var today = new Date();
+                            var age = today.getFullYear() - birthdate.getFullYear();
+                            document.getElementById("age").value = age;
+                        });
+                    </script>
+
+                    <label for="email">Correo</label>
+                    <input type="email" id="email" name="email" placeholder="Correo">
+                    <label for="phone">Telefono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Telefono">
+                    <label for="address">Direccion</label>
+                    <input type="text" id="address" name="address" placeholder="Direccion">
+                    <br>
+                    <button type="submit">Guardar Cambios</button>
+                </div>
+
+            </div>
+            <!--para cambiar el tamaño de una caja input se puede hacer con el atributo size="numero"-->
+
+
+
+            <!--
+            <label for="user">Usuario</label>
+            <input type="text" id="user" name="user" placeholder="Usuario">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="Contraseña">
+            <button type="submit">Iniciar Sesión</button>
+            -->
+        </form>
+    </main>
+</body>
+
+</html>

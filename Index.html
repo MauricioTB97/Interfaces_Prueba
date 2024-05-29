@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
-</head>
-<body>
-    <h1>Hola Mundo</h1>
-    
+    <title>Proyecto Pagina Web</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+
+</head>
+
+<body bgcolor="#FFFAF4">
+    <header>
+        <nav class="nav">
+            <div class="nav-box-logo"><img src="img/logo.jpg" width="150px" height="150px"></div>
+            <div class="nav-box"><a href="profile.html"><i class="fa-solid fa-user-nurse"></i> Perfil </a></div>
+            <div class="nav-box"><a href="citas.html">Citas</a></div>
+            <div class="nav-box"><a href="especialidades.html">Especialidades</a></div>
+            <div class="nav-box"><a href="nosotros.html">Nosotros</a></div>
+        </nav>
+    </header>
+    <section class="carrusel">
+        <div class="promos">
+            <h1>PROMOCIONES INIGUALABLES</h1>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/promo1.jpg" alt="promo1"></div>
+                <div class="swiper-slide"><img src="img/promo2.jpg" alt="promo2"></div>
+                <div class="swiper-slide"><img src="img/promo3.jpg" alt="promo3"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </section>
+    <main class="doctores">
+        <h1>DOCTORES PRINCIPALES</h1>
+        <div class="box-doctores">
+            <div class="doctor">
+                <img src="img/user.png" alt="doctor1">
+                <div class="info-doctor">
+                    <h2>Dr. Juan Ramirez</h2>
+                    <p>Medico General</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor">
+                <img src="img/user.png" alt="doctor2">
+                <div class="info-doctor">
+                    <h2>Dr. Maria torres</h2>
+                    <p>Medico General</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-doctores">
+            <div class="doctor">
+                <img src="img/user.png" alt="doctor3">
+                <div class="info-doctor">
+                    <h2>Dr. Pedro Ramirez</h2>
+                    <p>Medico General</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="doctor">
+                <img src="img/user.png" alt="doctor4">
+                <div class="info-doctor">
+                    <h2>Dr. Ana Martinez</h2>
+                    <p>Medico General</p>
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <section class="map">
+        <h1>UBÍCANOS</h1>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1673.231919350794!2d-101.17836198294276!3d19.70077805348031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0e0eb8a50f69%3A0xa244cda6a9602fff!2sUniversidad%20de%20Morelia!5e0!3m2!1ses-419!2smx!4v1716687959042!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-box">
+            <h3>Te gustaria ser parte de nuestros grandes medicos en Grupo Moon Medica.</h3>
+            <h2>Contactanos</h2>
+            <div class="info-contacto">
+                <div class="contacto">
+                    <p><i class="fa-solid fa-envelope"></i> moonmedicamexico@grupoempresarial.com</p>
+                    <p><i class="fa-solid fa-address-book"></i> 555 888 5959</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
 </html>
