@@ -1,19 +1,21 @@
-body{
+body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
     border-radius: 5px;
 }
-.nav-box{
+
+.nav-box {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -21,9 +23,10 @@ body{
     background-color: #7aaff6ad;
     padding: 10px;
     border: 1px solid black;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
-.nav-box a{
+
+.nav-box a {
     color: rgb(0, 0, 0);
     padding: 10px;
     font-weight: bolder;
@@ -31,6 +34,7 @@ body{
     font-family: Verdana;
 
 }
+
 /*carrusel*/
 .carrusel {
     display: flex;
@@ -46,21 +50,24 @@ body{
     margin-right: auto;
     flex-direction: column;
 }
+
 /*main doctores*/
-.doctores{
+.doctores {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.doctores h1{
+
+.doctores h1 {
     margin: 20px 10px 0 10px;
     padding: 10px;
     font-size: 30px;
     font-weight: bolder;
     font-family: Verdana;
 }
-.box-doctores{
+
+.box-doctores {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -69,7 +76,8 @@ body{
     padding: 10px;
     width: 100%;
 }
-.doctor{
+
+.doctor {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -79,7 +87,8 @@ body{
     border-radius: 10px;
     background-color: #7aaff6ad;
 }
-.info-doctor{
+
+.info-doctor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,20 +98,22 @@ body{
 }
 
 /*ubicacion*/
-.map{
+.map {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-.map h1{
+
+.map h1 {
     margin: 0 10px 0 10px;
     padding: 10px;
     font-size: 30px;
     font-weight: bolder;
     font-family: Verdana;
 }
-.mapa{
+
+.mapa {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +124,8 @@ body{
     background-color: #7aaff6ad;
     width: 98%;
 }
-iframe{
+
+iframe {
     width: 95%;
     height: 400px;
     border: 1px solid black;
@@ -121,22 +133,23 @@ iframe{
 }
 
 /*Info final*/
-.footer-box{
+.footer-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #7979792f;
     padding: 10px;
-    border-top: 1px solid black;  
+    border-top: 1px solid black;
     width: 100%;
-    height: 200px;
 
 }
-.footer-box p{
+
+.footer-box p {
     font-size: 20px;
     font-weight: bolder;
 }
-.contacto{
+
+.contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,63 +165,75 @@ iframe{
     width: 600px;
     height: 300px;
 }
-.swiper-wrapper img{
+
+.swiper-wrapper img {
     width: 100%;
     height: 100%;
 }
 
-@media (max-width: 1024px){
-    .carrusel{
+@media (max-width: 1024px) {
+    .carrusel {
         width: 80%;
     }
-    .swiper{
+
+    .swiper {
         width: 100%;
         height: 250px;
     }
-    .m0apa{
+
+    .m0apa {
         width: 100%;
     }
-    .footer-box{
+
+    .footer-box {
         height: 250px;
     }
 }
-@media (max-width: 768px){
-    .nav{
+
+@media (max-width: 768px) {
+    .nav {
         flex-direction: column;
     }
-    .carrusel{
+
+    .carrusel {
         width: 90%;
     }
-    .swiper{
+
+    .swiper {
         width: 100%;
         height: 200px;
     }
-    .box-doctores{
+
+    .box-doctores {
         flex-direction: column;
     }
-    .mapa{
+
+    .mapa {
         width: 100%;
     }
-    .footer-box{
+
+    .footer-box {
         height: 300px;
     }
 }
 
 /*Estilos pagina profile.html*/
 
-.main-profile h1{
+.main-profile h1 {
     margin: 20px 10px 0 10px;
     padding: 10px;
     font-size: 30px;
     font-weight: bolder;
-    font-family: Verdana;    
+    font-family: Verdana;
 }
-.main-profile{
+
+.main-profile {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.profile{
+
+.profile {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -218,7 +243,8 @@ iframe{
     border-radius: 10px;
     background-color: #7aaff6ad;
 }
-.info-user{
+
+.info-user {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,15 +252,265 @@ iframe{
     margin: 10px;
     padding: 10px;
 }
-.in-text{
+
+.in-text {
     height: 20px;
 
 }
-.info-user input{
+
+.info-user input {
     height: 30px;
     width: 300px;
 }
-.info-user label{
+
+.info-user label {
     font-size: 20px;
     font-weight: bolder;
+}
+
+.info {
+    margin: 10px;
+    padding-left: 50PX;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7aaff6ad;
+}
+
+.info UL {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.allergies,
+.conditions {
+    background-color: #e0ffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px 10px 50px 10px;
+}
+
+.allergies h2,
+.conditions h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana;
+}
+
+.allergies UL,
+.conditions UL {
+    font-size: 30px;
+}
+
+.allergies button,
+.conditions button {
+    border: none;
+    background-color: #04aa6d8a;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    margin: 10px;
+}
+
+.seccion {
+    margin: 100px 200px 50px 200px;
+}
+
+/*Pag. Citas*/
+.citas h1 {
+    margin: 20px 10px 0 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.citas {
+    display: flex;
+    flex-direction: column;
+}
+
+.citas h2 {
+    margin: 20px 10px 0 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.doctor-cita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7aaff6ad;
+}
+
+.doctor-cita img {
+    width: 100px;
+    height: 100px;
+}
+
+.doctor-cita p {
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana;
+    margin: 0 0 10px 0;
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+    -webkit-text-stroke: 1px black;
+}
+
+.doctor-cita h3 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: Verdana;
+    margin: 0 0 10px 0;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Pag. especialidades*/
+.especialidad h1 {
+    margin: 20px 10px 0 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.especialidad {
+    display: flex;
+    flex-direction: column;
+}
+
+.especialidad h2 {
+    margin: 20px 10px 0 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box_espe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.espe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #7aaff6ad;
+    cursor: pointer;
+}
+
+#search-input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box-busqueda {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7aaff6ad;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-button {
+    border: none;
+    background-color: #04aa6d8a;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*about*/
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mvv-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.mision,
+.vision,
+.valores {
+    background-color: #a4b5827e;
+    /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.about-text {
+    margin: 10px;
+    padding-left: 50PX;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #87b5f099;
+    text-align: center;
+}
+.about-text p{
+    font-size: large;
+    font-family: Verdana;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 768px){
+    .mvv-container{
+        flex-direction: column;
+    }
+    .mision,
+    .vision,
+    .valores{
+        width: 90%;
+    }
+    .about-text{
+        width: 90%;
+    }
 }
